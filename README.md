@@ -1,3 +1,3 @@
-# katlopz.github.io
+# KatLopz Website
 
-Let's see
+This project is a test to see the capabilities of GitHub Pages
