@@ -1,1 +1,4 @@
-credits for photos should go here
+mail.svg
+linkedin.svg
+https://feathericons.com/
+
