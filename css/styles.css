@@ -133,6 +133,11 @@ footer {
 .contact-list a {
     padding: 15px;
     display: inline-block;
+    opacity: 0.5;
+}
+
+.contact-list a:hover {
+    opacity: 1.0;
 }
 
 /* Responsive
