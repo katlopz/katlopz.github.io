@@ -139,7 +139,7 @@ footer {
     opacity: 0.5;
 }
 
-.contact-list a:hover img {
+.contact-list a img:hover {
     opacity: 1.0;
 }
 
