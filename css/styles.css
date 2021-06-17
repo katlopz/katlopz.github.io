@@ -123,29 +123,6 @@ header {
     margin-top: 0;
 }
 
-/* Work Experience
------------------------------------*/
-.work-experience {
-    background: #5BC3EB;
-}
-.work-experience a {
-    color: #F06449;
-}
-
-
-
-/* Education
------------------------------------*/
-.education {
-    background: #DADAD9;
-    background-size: cover;
-    background-position: right;
-    padding-bottom: 100px;
-}
-.education p {
-    width: 50%;
-}
-
 /* Contact info
 -----------------------------------*/
 footer {
@@ -159,6 +136,9 @@ footer {
 .contact-list a {
     padding: 15px;
     display: inline-block;
+}
+img {
+    width: 100px;
 }
 
 /* Responsive
