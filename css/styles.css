@@ -76,6 +76,7 @@ h3 {
 }
 .navbar li {
   display: block; 
+  font-size: 20px;
 }
 .navbar a {
   text-decoration: none;
