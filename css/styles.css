@@ -136,7 +136,7 @@ footer {
 }
 
 .contact-list a img {
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 .contact-list a img:hover {
@@ -162,11 +162,6 @@ footer {
     .contact-list {
         display: flex;
         justify-content: center;
-    }
-}
-@media screen and (min-width: 850px) {
-    .education {
-        background-image: url(../images/markus-spiske-unsplash-2.jpg);
     }
 }
 /* Only show on small screen sizes */
