@@ -67,6 +67,30 @@ h3 {
     border-bottom: none;
 }
 
+/* Navbar 
+---------------------------------*/
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  width: max-content;
+  gap: 1rem;
+  margin: 4em 0;
+  padding: 0.25em 1em;
+}
+.navbar li {
+  display: block; 
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.navbar a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
 /* Profile
 -----------------------------------*/
 header {
