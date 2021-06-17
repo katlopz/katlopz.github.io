@@ -23,9 +23,6 @@ body {
     font-size: 17px;
     line-height: 1.5;
 }
-img {
-    width: 300px;
-}
 a {
     color: #5BC3EB;
 }
@@ -136,9 +133,6 @@ footer {
 .contact-list a {
     padding: 15px;
     display: inline-block;
-}
-img {
-    width: 100px;
 }
 
 /* Responsive
