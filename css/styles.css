@@ -84,7 +84,7 @@ h3 {
 }
 .navbar a:hover {
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: #5BC3EB;;
   text-decoration-thickness: 3px;
   text-underline-offset: 6px;
 }
