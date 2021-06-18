@@ -60,7 +60,7 @@ h3 {
     margin: 0;
 }
 .divider > section {
-    border-bottom: 1px dashed #36382E;
+    border-bottom: 1px dotted #36382E;
     padding: 25px 0;
 }
 .divider > section:last-of-type {
