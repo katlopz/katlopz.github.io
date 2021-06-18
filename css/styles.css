@@ -74,6 +74,7 @@ h3 {
   flex-wrap: wrap;
   width: max-content;
   gap: 2rem;
+  padding-inline-start: 0;
 }
 .navbar li {
   display: block; 
