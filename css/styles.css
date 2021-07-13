@@ -130,7 +130,7 @@ footer {
     color: #EDE6E3;
     background: #36382E;
 }
-.contact-list {
+.contact-list{
     list-style-type: none;
     padding: 0;
 }
@@ -139,7 +139,7 @@ footer {
     display: inline-block;
 }
 
-.contact-list a img {
+.contact-list:hover a img {
     opacity: 0.75;
 }
 
