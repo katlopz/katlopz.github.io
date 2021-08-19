@@ -7,7 +7,6 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 ## Things to add 
 * Collect form submissions through Netlify 
 * Set up domain
-* Make banner shorter
 * Snap nav bar to top
 * Upload teaching resources
 * Github links for each coding project
