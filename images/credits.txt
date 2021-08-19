@@ -1,4 +1,5 @@
 ---- https://feathericons.com/ ----
+github.svg
 instagram.svg
 linkedin.svg
 mail.svg
