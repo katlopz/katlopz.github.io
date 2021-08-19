@@ -69,6 +69,11 @@ h3 {
 
 /* Banner 
 ---------------------------------*/
+.banner {
+    padding: 0;
+    margin: 0;
+}
+
 .banner img{
     width: 100%;
 }
