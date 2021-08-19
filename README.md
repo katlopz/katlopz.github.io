@@ -10,3 +10,4 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 * Make banner shorter
 * Snap nav bar to top
 * Upload teaching resources
+* Github links for each coding project
