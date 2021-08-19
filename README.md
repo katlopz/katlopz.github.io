@@ -16,3 +16,5 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 * Tab image
 * Meta data for searching
 * Fix logo
+* Hamburger menu for mobile view 
+* Responsive for mobile
