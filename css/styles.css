@@ -158,6 +158,9 @@ footer {
     opacity: 1.0;
 }
 
+cp {
+    font-size: 10px;    
+}
 /* Responsive
 -----------------------------------*/
 /* Only show on big screen sizes */
