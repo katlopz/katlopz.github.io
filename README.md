@@ -13,7 +13,7 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 * (centered) full width page content
 * Search feature for resources
 * Social media links on contact page
-* Tab image
+* Remove square background on tab image
 * Meta data for searching
 * Fix logo
 * Hamburger menu for mobile view 
