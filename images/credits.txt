@@ -1,5 +1,9 @@
 ---- https://feathericons.com/ ----
-mail.svg
+instagram.svg
 linkedin.svg
+mail.svg
+twitter.svg
+youtube.svg
+
 
 
