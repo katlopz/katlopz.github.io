@@ -15,3 +15,4 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 * Social media links on contact page
 * Tab image
 * Meta data for searching
+* Fix logo
