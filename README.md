@@ -18,3 +18,4 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 * Fix logo
 * Hamburger menu for mobile view 
 * Responsive for mobile
+* Copyright in footer
