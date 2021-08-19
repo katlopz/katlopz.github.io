@@ -81,7 +81,6 @@ h3 {
   width: max-content;
   gap: 2rem;
   padding-inline-start: 0;
-  padding: 1em 0;
 }
 .navbar li {
   display: block; 
