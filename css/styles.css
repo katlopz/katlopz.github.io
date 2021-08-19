@@ -81,6 +81,7 @@ h3 {
   width: max-content;
   gap: 2rem;
   padding-inline-start: 0;
+  padding: 1em 0;
 }
 .navbar li {
   display: block; 
@@ -97,11 +98,10 @@ h3 {
   text-underline-offset: 6px;
 }
 
-/* Profile
+/* Header
 -----------------------------------*/
 header {
     background: #DADAD9;
-    padding: 1em 0;
 }
 
 /* Projects
