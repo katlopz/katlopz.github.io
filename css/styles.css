@@ -67,6 +67,12 @@ h3 {
     border-bottom: none;
 }
 
+/* Banner 
+---------------------------------*/
+.banner, img{
+    width: 100%;
+}
+
 /* Navbar 
 ---------------------------------*/
 .navbar {
