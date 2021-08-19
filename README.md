@@ -8,5 +8,10 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 * Collect form submissions through Netlify 
 * Set up domain
 * Snap nav bar to top
-* Upload teaching resources
-* Github links for each coding project
+* Upload teaching resources for download
+* Nav bar drop down menus
+* (centered) full width page content
+* Search feature for resources
+* Social media links on contact page
+* Tab image
+* Meta data for searching
