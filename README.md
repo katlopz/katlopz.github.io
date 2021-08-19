@@ -19,3 +19,4 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 * Hamburger menu for mobile view 
 * Responsive for mobile
 * Copyright in footer
+* Site description
