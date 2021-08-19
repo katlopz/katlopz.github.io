@@ -20,3 +20,4 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 * Responsive for mobile
 * Copyright in footer
 * Site description
+* Work on develop branch
