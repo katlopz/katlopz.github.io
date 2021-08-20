@@ -7,7 +7,6 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 ## Things to add 
 * Collect form submissions through Netlify 
 * Set up domain
-* Snap nav bar to top
 * Upload teaching resources for download
 * Nav bar drop down menus
 * (centered) full width page content
@@ -18,6 +17,6 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 * Fix logo
 * Hamburger menu for mobile view 
 * Responsive for mobile
-* Copyright in footer
 * Site description
 * Work on develop branch
+* Fix nav bar snapping on page load
