@@ -19,6 +19,5 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 - Responsive for mobile
 - Site description
 - Fix nav bar snapping on page load
-- Use Github issues
 - Get navbar to hide when not scrolling
 - Fit contact form to site style
