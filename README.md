@@ -6,7 +6,6 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 
 ## Things to add
 
-- Collect form submissions through Netlify
 - Set up domain
 - Upload teaching resources for download
 - Nav bar drop down menus
@@ -22,3 +21,4 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 - Fix nav bar snapping on page load
 - Use Github issues
 - Get navbar to hide when not scrolling
+- Fit contact form to site style
