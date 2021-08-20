@@ -87,6 +87,11 @@ h3 {
   padding-inline-start: 0;
   margin: 0;
   padding: 1em 0;
+    
+  background: #DADAD9;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 .navbar li {
   display: block; 
