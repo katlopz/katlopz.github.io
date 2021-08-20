@@ -19,3 +19,4 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 * Responsive for mobile
 * Site description
 * Fix nav bar snapping on page load
+* Test pull requests
