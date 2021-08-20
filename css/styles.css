@@ -107,6 +107,9 @@ h3 {
 -----------------------------------*/
 header {
     background: #DADAD9;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 /* Projects
