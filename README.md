@@ -18,5 +18,4 @@ Netlify site here: https://unfinished-creativity.netlify.app/
 * Hamburger menu for mobile view 
 * Responsive for mobile
 * Site description
-* Work on develop branch
 * Fix nav bar snapping on page load
