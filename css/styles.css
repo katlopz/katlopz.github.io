@@ -112,7 +112,7 @@ h3 {
 header {
     background: #DADAD9;
     position: sticky;
-    top: 0;
+    top: -1px;
     z-index: 10;
 }
 
