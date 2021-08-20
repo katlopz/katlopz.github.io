@@ -38,19 +38,22 @@
           <!-- End of Project block. -->
           <form name="contact" action="/pages/success.html" method="POST" data-netlify="true">
             <label for="name">Name</label> 
+            <br>
             <input id="name" name="users_name" type="text"></input> 
             <br>
           
             <label for="email">Email</label> 
+            <br>
             <input id="email" name="email_address" type="email" required placeholder="me@example.com"></input> 
             <!-- placeholder has grey text, value would actually prefill input -->
             <br>
  
             <label for="message">Message</label>
+            <br>
             <textarea id="message" name="users_message" type="text"></textarea>
             <br>
 
-            <button type="submit">Send</button>
+            <button class="submit" type="submit">Send</button>
           </form>
         </div>
       </section>
