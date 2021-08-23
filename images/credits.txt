@@ -11,6 +11,11 @@ Size: 24px
 Stroke width: 2px
 Color: #EDE6E3
 
+---- Banner Image ----
+
+banner.jpg
+https://www.facebook.com/WellingtonSoundcheck/photos/a.1303314113152348/1303316433152116
+
 
 
 
