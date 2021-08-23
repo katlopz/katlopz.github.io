@@ -89,24 +89,26 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   width: max-content;
-  gap: 2rem;
   padding-inline-start: 0;
   margin: 0;
-  padding: 1em 0;
 }
 .navbar li {
   display: block;
+  padding: 1em;
+}
+.navbar .active {
+  background-color: #5bc3eb;
+}
+.navbar li:hover:not(:first-child) {
+  background-color: #c5c5c4;
+}
+.navbar .active:hover {
+  background-color: #5bc3eb;
 }
 .navbar a {
   text-decoration: none;
   color: black;
   font-size: 20px;
-}
-.navbar a:hover {
-  text-decoration: underline;
-  text-decoration-color: #5bc3eb;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 6px;
 }
 
 /* Header
