@@ -91,10 +91,20 @@ h3 {
   width: max-content;
   padding-inline-start: 0;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
 }
 .navbar li {
-  display: block;
-  padding: 1em;
+  float: left;
+}
+.navbar li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 0.75em 1em;
+  text-align: center;
 }
 .navbar .active {
   background-color: #5bc3eb;
@@ -102,13 +112,8 @@ h3 {
 .navbar li:hover:not(:first-child) {
   background-color: #c5c5c4;
 }
-.navbar .active:hover {
+.navbar .active:hover:not(:first-child) {
   background-color: #5bc3eb;
-}
-.navbar a {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
 }
 
 /* Header
