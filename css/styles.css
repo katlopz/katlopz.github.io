@@ -27,9 +27,10 @@ body {
 }
 a {
   color: #5bc3eb;
+  text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 h1 {
   font-size: 50px;
@@ -204,10 +205,10 @@ footer {
 }
 
 .contact-list:hover a img {
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
-.contact-list a img:hover {
+.contact-list a:hover img {
   opacity: 1;
 }
 
