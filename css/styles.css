@@ -18,7 +18,7 @@ html {
 }
 body {
   color: #36382e;
-  background: #ede6e3;
+  background: white;
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
@@ -43,16 +43,11 @@ h1,
 h2 {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  color: #f06449;
 }
 .content-wrap {
-  max-width: 800px;
-  width: 85%;
   margin: 0 auto;
-  padding: 60px 0;
-}
-.content-wrap.nav {
-  background: #dadad9;
-  padding: 0;
+  padding: 60px 60px;
 }
 h3 {
   margin-bottom: 0;
@@ -86,51 +81,51 @@ h3 {
 
 /* Navbar 
 ---------------------------------*/
+.content-wrap.nav {
+  background: #36382e;
+  padding: 0;
+}
 .navbar {
   display: flex;
   flex-wrap: wrap;
   width: max-content;
   padding-inline-start: 0;
-  margin: 0;
+  margin: auto;
   padding: 0;
   overflow: hidden;
   list-style-type: none;
-}
-.navbar li {
-  float: left;
+  background: #36382e;
 }
 .navbar li a {
   display: inline-block;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 20px;
   padding: 0.75em 1em;
   text-align: center;
 }
-.navbar .active {
-  background-color: #5bc3eb;
+.navbar .active a {
+  color: #f06449;
 }
-.navbar li:hover:not(:first-child) {
-  background-color: #c5c5c4;
-}
-.navbar .active:hover:not(:first-child) {
-  background-color: #5bc3eb;
+.navbar li:hover a {
+  color: #f06449;
 }
 
 /* Header
 -----------------------------------*/
 header {
-  background: #dadad9;
+  background: #36382e;
   position: sticky;
   top: -1px;
   z-index: 10;
-  box-shadow: 0px 1px 4px grey;
 }
 
 /* Projects
 -----------------------------------*/
 .projects {
   background: #ede6e3;
+  width: 85%;
+  max-width: 800px;
 }
 .projects .btn {
   color: #ffffff;
@@ -195,15 +190,35 @@ footer {
   color: #ede6e3;
   background: #36382e;
 }
+footer .content-wrap {
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+  align-items: center;
+}
+footer .content-wrap::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.cp {
+  font-size: 12px;
+  float: left;
+  padding: 1em 10px;
+}
+footer img {
+  float: center;
+}
 .contact-list {
+  float: right;
+  right: 0px;
   list-style-type: none;
-  padding: 0;
+  padding: 0px 10px;
 }
 .contact-list a {
-  padding: 15px;
+  padding: 0px 5px;
   display: inline-block;
 }
-
 .contact-list:hover a img {
   opacity: 0.6;
 }
@@ -212,9 +227,6 @@ footer {
   opacity: 1;
 }
 
-.cp {
-  font-size: 12px;
-}
 /* Responsive
 -----------------------------------*/
 /* Only show on big screen sizes */
