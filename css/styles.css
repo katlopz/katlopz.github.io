@@ -62,8 +62,7 @@ h3 {
   margin: 0;
 }
 .divider > section {
-  border-bottom: 2px dotted #dadad9;
-  padding: 25px 0;
+  padding: 20px;
 }
 .divider > section:last-of-type {
   border-bottom: none;
@@ -123,7 +122,6 @@ header {
 /* Projects
 -----------------------------------*/
 .projects {
-  background: #ede6e3;
   width: 85%;
   max-width: 800px;
 }
@@ -140,8 +138,10 @@ header {
 }
 .project-item {
   overflow: hidden;
+  background-color: #ede6e3;
+  margin-top: 1em;
+  box-shadow: 5px 5px 5px #dadad9;
 }
-
 .project-item h3 {
   margin-top: 0;
 }
@@ -184,7 +184,7 @@ textarea {
   background: rgba(240, 100, 73, 0.8);
 }
 
-/* Contact info
+/* Footer
 -----------------------------------*/
 footer {
   color: #ede6e3;
