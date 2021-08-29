@@ -130,7 +130,6 @@ header {
   background: #f06449;
   text-decoration: none;
   padding: 8px;
-  border-radius: 4px;
   display: inline-block;
 }
 .projects .btn:hover {
@@ -148,6 +147,18 @@ header {
   margin-top: 0;
 }
 
+/* Misc 
+-----------------------------------*/
+.half-image {
+  grid-area: left;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.half-body {
+  grid-area: right;
+  margin-bottom: 25px;
+}
+
 /* Forms
 -----------------------------------*/
 input,
@@ -158,11 +169,16 @@ textarea {
   box-sizing: border-box;
   outline: none;
   font-family: "Roboto", sans-serif;
+  border-top: #ffffff;
+  border-right: #ffffff;
+  border-left: #ffffff;
+  border-bottom: 1px solid #36382e;
 }
 input:focus,
 textarea:focus {
-  border: 3px solid #5bc3eb;
+  border: 1px solid #36382e;
 }
+
 textarea {
   height: 150px;
   resize: none;
@@ -172,8 +188,8 @@ textarea {
   background: #f06449;
   text-decoration: none;
   padding: 8px;
-  border-radius: 4px;
   display: inline-block;
+  width: 100%;
 
   border: none;
   text-align: center;
@@ -252,6 +268,14 @@ footer .credits {
   .contact-list {
     display: flex;
     justify-content: center;
+  }
+  .half {
+    display: grid;
+    grid-template-areas: "left right";
+    -ms-grid-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
+    -webkit-column-gap: 25px;
+    column-gap: 25px;
   }
 }
 /* Only show on small screen sizes */
