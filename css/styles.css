@@ -140,6 +140,8 @@ header {
   overflow: hidden;
   background-color: #ede6e3;
   margin-top: 1em;
+}
+.project-item:hover {
   box-shadow: 5px 5px 5px #dadad9;
 }
 .project-item h3 {
