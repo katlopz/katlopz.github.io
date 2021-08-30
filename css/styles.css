@@ -160,6 +160,9 @@ header {
 .headshot {
   width: 100%;
 }
+.contact-icons {
+  text-align: center;
+}
 
 /* Forms
 -----------------------------------*/
@@ -303,6 +306,10 @@ footer .credits {
   }
   .contact-list a {
     padding: 5px;
+  }
+  .contact-icons {
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 1199px) {
