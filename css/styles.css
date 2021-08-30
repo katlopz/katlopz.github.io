@@ -85,7 +85,6 @@ h3 {
   padding: 0;
 }
 .navbar {
-  display: flex;
   flex-wrap: wrap;
   width: max-content;
   padding-inline-start: 0;
@@ -94,6 +93,9 @@ h3 {
   overflow: hidden;
   list-style-type: none;
   background: #36382e;
+}
+.navbar li {
+  text-align: center;
 }
 .navbar li a {
   display: inline-block;
@@ -114,9 +116,6 @@ h3 {
 -----------------------------------*/
 header {
   background: #36382e;
-  position: sticky;
-  top: -1px;
-  z-index: 10;
 }
 
 /* Projects
@@ -157,6 +156,9 @@ header {
 .half-body {
   grid-area: right;
   margin-bottom: 25px;
+}
+.headshot {
+  width: 100%;
 }
 
 /* Forms
@@ -205,7 +207,7 @@ textarea {
 /* Footer
 -----------------------------------*/
 footer {
-  color: #ede6e3;
+  color: #ffffff;
   background: #36382e;
   padding: 5px;
 }
@@ -269,6 +271,15 @@ footer .credits {
     display: flex;
     justify-content: center;
   }
+  .navbar {
+    display: flex;
+  }
+  header {
+    background: #36382e;
+    position: sticky;
+    top: -1px;
+    z-index: 10;
+  }
 }
 @media screen and (min-width: 1200px) {
   .half {
@@ -276,8 +287,8 @@ footer .credits {
     grid-template-areas: "left right";
     -ms-grid-columns: 50% 50%;
     grid-template-columns: 50% 50%;
-    -webkit-column-gap: 25px;
-    column-gap: 25px;
+    -webkit-column-gap: 30px;
+    column-gap: 30px;
   }
 }
 /* Only show on small screen sizes */
