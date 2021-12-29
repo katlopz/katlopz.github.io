@@ -1,15 +1,22 @@
 ---- https://feathericons.com/ ----
-facebook.svg
+(including -B variants)
+
+Size: 40px
+Stroke width: 2px
+Color: #FFFFFF (and #36382E)
+
 github.svg
 instagram.svg
 linkedin.svg
-mail.svg
 twitter.svg
-youtube.svg
 
 Size: 24px
 Stroke width: 2px
 Color: #EDE6E3
+
+facebook.svg
+mail.svg
+youtube.svg
 
 ---- Banner Image ----
 
