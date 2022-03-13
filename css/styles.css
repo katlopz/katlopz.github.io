@@ -86,24 +86,44 @@ h3 {
 /* Header
 -----------------------------------*/
 header {
-  height: 10em;
+  height: 10%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "name name nav nav nav nav"
+    "title title title title title title";
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 
 /* Name 
 -----------------------------------*/
 .name {
   padding: 0.75em 1em;
+  grid-area: name;
+}
+.name img {
+  margin: auto auto auto 0;
 }
 
 /* Navbar 
 ---------------------------------*/
 .nav {
+  grid-area: nav;
 }
 .navbar {
   flex-wrap: wrap;
   width: max-content;
   padding-inline-start: 0;
-  margin: auto;
+  margin: auto 0 auto auto;
   padding: 0;
   overflow: hidden;
   list-style-type: none;
@@ -131,6 +151,7 @@ header {
 .title {
   vertical-align: middle;
   line-height: 20em;
+  grid-area: title;
 }
 
 .title h1 {
