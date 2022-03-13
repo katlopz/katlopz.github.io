@@ -35,15 +35,16 @@ a:hover {
 h1 {
   font-size: 50px;
   line-height: 1;
+  color: white;
 }
 h2 {
   font-size: 30px;
+  color: #f06449;
 }
 h1,
 h2 {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  color: #f06449;
 }
 .content-wrap {
   margin: 0 auto;
@@ -75,14 +76,28 @@ h3 {
 }
 
 .banner img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
   width: 100%;
+}
+
+/* Header
+-----------------------------------*/
+header {
+  height: 10em;
+}
+
+/* Name 
+-----------------------------------*/
+.name {
+  padding: 0.75em 1em;
 }
 
 /* Navbar 
 ---------------------------------*/
-.content-wrap.nav {
-  background: #36382e;
-  padding: 0;
+.nav {
 }
 .navbar {
   flex-wrap: wrap;
@@ -92,7 +107,6 @@ h3 {
   padding: 0;
   overflow: hidden;
   list-style-type: none;
-  background: #36382e;
 }
 .navbar li {
   text-align: center;
@@ -112,10 +126,15 @@ h3 {
   color: #f06449;
 }
 
-/* Header
------------------------------------*/
-header {
-  background: #36382e;
+/* Page Title 
+---------------------------------*/
+.title {
+  vertical-align: middle;
+  line-height: 20em;
+}
+
+.title h1 {
+  text-align: center;
 }
 
 /* Projects
@@ -275,8 +294,6 @@ footer .credits {
     display: flex;
   }
   header {
-    background: #36382e;
-    position: sticky;
     top: -1px;
     z-index: 10;
   }
