@@ -86,16 +86,19 @@ h3 {
 /* Header
 -----------------------------------*/
 header {
-  height: 10%;
+  height: 15em;
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% auto;
 }
 
 .grid-container {
+  height: 15em;
   display: grid;
   grid-template-areas:
     "name name nav nav nav nav"
     "title title title title title title";
-  gap: 10px;
-  padding: 10px;
 }
 
 .grid-container > div {
@@ -109,9 +112,14 @@ header {
 .name {
   padding: 0.75em 1em;
   grid-area: name;
+  position: relative;
 }
 .name img {
   margin: auto auto auto 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 /* Navbar 
