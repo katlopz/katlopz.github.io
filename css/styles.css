@@ -84,21 +84,26 @@ h3 {
 }
 
 /* Header
------------------------------------*/
-header {
-  height: 15em;
-  background-image: url("../images/banner.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
+-----------------------------------
+height: calc(174px / 900 * 100vw);
+*/
 
 .grid-container {
-  height: 15em;
+  height: calc(174 / 900 * 100vw) !important;
   display: grid;
   grid-template-areas:
     "name name nav nav nav nav"
     "title title title title title title";
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.non-coding {
+  background-image: url("../images/banner.jpg");
+}
+
+.coding {
+  background-image: url("../images/coding_banner.png");
 }
 
 .grid-container > div {
