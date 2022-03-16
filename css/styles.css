@@ -85,15 +85,20 @@ h3 {
 
 /* Header
 -----------------------------------
-height: calc(174px / 900 * 100vw);
+calc() only wants one number with units 
+the 100vw (viewport width) comes with it's own units
 */
+header {
+  height: calc(29 / 150 * 100vw);
+  background-color: #36382e;
+}
 
 .grid-container {
-  height: calc(174 / 900 * 100vw) !important;
+  height: calc(29 / 150 * 100vw);
   display: grid;
   grid-template-areas:
-    "name name nav nav nav nav"
-    "title title title title title title";
+    "name nav nav"
+    "title title title";
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -108,14 +113,12 @@ height: calc(174px / 900 * 100vw);
 
 .grid-container > div {
   text-align: center;
-  padding: 20px 0;
   font-size: 30px;
 }
 
 /* Name 
 -----------------------------------*/
 .name {
-  padding: 0.75em 1em;
   grid-area: name;
   position: relative;
 }
@@ -124,7 +127,18 @@ height: calc(174px / 900 * 100vw);
   position: absolute;
   top: 0;
   bottom: 0;
-  margin: auto;
+  left: 0;
+  padding-left: 1em;
+  height: calc(29 / 150 * 100vw / 4);
+}
+
+.homepage .name img {
+  height: calc(29 / 150 * 100vw / 2);
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0;
 }
 
 /* Navbar 
@@ -137,7 +151,7 @@ height: calc(174px / 900 * 100vw);
   width: max-content;
   padding-inline-start: 0;
   margin: auto 0 auto auto;
-  padding: 0;
+  padding-right: 1em;
   overflow: hidden;
   list-style-type: none;
 }
@@ -151,9 +165,6 @@ height: calc(174px / 900 * 100vw);
   font-size: 20px;
   padding: 0.75em 1em;
   text-align: center;
-}
-.navbar .active a {
-  color: #f06449;
 }
 .navbar li:hover a {
   color: #f06449;
